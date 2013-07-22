@@ -1,8 +1,10 @@
-package test.yanbo.cmscreater.db;
+package test.yanbo.cmscreator.db;
+
+import static org.junit.Assert.assertNotNull;
 
 import org.junit.Test;
-import static org.junit.Assert.*;
-import com.yanbo.cmscreater.db.DatabaseConnecter;
+
+import com.yanbo.cmscreator.db.DatabaseConnecter;
 
 public class DatabaseConnecterTest {
 	private static DatabaseConnecter databaseConnecter = new DatabaseConnecter();

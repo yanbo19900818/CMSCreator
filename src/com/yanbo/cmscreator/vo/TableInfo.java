@@ -1,4 +1,4 @@
-package com.yanbo.cmscreater.vo;
+package com.yanbo.cmscreator.vo;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.yanbo.cmscreater.vo;
+package com.yanbo.cmscreator.vo;
 
 public class ColumInfo {
 	private String type;

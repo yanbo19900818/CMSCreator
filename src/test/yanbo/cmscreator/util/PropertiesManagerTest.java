@@ -1,10 +1,10 @@
-package test.yanbo.cmscreater.util;
+package test.yanbo.cmscreator.util;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertNotNull;
 
 import org.junit.Test;
 
-import com.yanbo.cmscreater.util.PropertiesManager;
+import com.yanbo.cmscreator.util.PropertiesManager;
 
 public class PropertiesManagerTest {
 

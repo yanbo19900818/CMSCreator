@@ -1,4 +1,4 @@
-package com.yanbo.cmscreater.util;
+package com.yanbo.cmscreator.util;
 
 import java.io.IOException;
 import java.io.InputStream;

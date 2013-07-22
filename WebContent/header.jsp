@@ -1,5 +1,5 @@
 <%@ page language="java" import="java.util.*" pageEncoding="utf-8"%>
-<div class="container-fluid">
+
 	<div class="row-fluid">
 		<div class="span12">
 			<div class="navbar navbar-inverse">
@@ -30,32 +30,6 @@
 											<a href="#">其他</a>
 										</li>
 										</ul>
-								</li>
-							</ul>
-							<ul class="nav pull-right">
-								<li>
-									<a href="#">右边链接</a>
-								</li>
-								<li class="divider-vertical">
-								</li>
-								<li class="dropdown">
-									 <a data-toggle="dropdown" class="dropdown-toggle" href="#">下拉菜单<strong class="caret"></strong></a>
-									<ul class="dropdown-menu">
-										<li>
-											<a href="#">下拉导航1</a>
-										</li>
-										<li>
-											<a href="#">下拉导航2</a>
-										</li>
-										<li>
-											<a href="#">其他</a>
-										</li>
-										<li class="divider">
-										</li>
-										<li>
-											<a href="#">链接3</a>
-										</li>
-									</ul>
 								</li>
 							</ul>
 						</div>

@@ -1,4 +1,4 @@
-package com.yanbo.cmscreater.db;
+package com.yanbo.cmscreator.db;
 
 import java.sql.Connection;
 import java.sql.DatabaseMetaData;
@@ -9,9 +9,9 @@ import java.sql.Types;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.yanbo.cmscreater.util.PropertiesManager;
-import com.yanbo.cmscreater.vo.ColumInfo;
-import com.yanbo.cmscreater.vo.TableInfo;
+import com.yanbo.cmscreator.util.PropertiesManager;
+import com.yanbo.cmscreator.vo.ColumInfo;
+import com.yanbo.cmscreator.vo.TableInfo;
 
 public class DatabaseConnecter {
 	public  Connection getConnection() {

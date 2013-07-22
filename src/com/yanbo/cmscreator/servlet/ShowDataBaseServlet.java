@@ -1,7 +1,6 @@
-package com.yanbo.cmscreater.servlet;
+package com.yanbo.cmscreator.servlet;
 
 import java.io.IOException;
-import java.io.PrintWriter;
 import java.util.List;
 
 import javax.servlet.ServletException;
@@ -9,9 +8,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.sun.org.apache.bcel.internal.generic.NEW;
-import com.yanbo.cmscreater.db.DatabaseConnecter;
-import com.yanbo.cmscreater.vo.TableInfo;
+import com.yanbo.cmscreator.db.DatabaseConnecter;
+import com.yanbo.cmscreator.vo.TableInfo;
 
 public class ShowDataBaseServlet extends HttpServlet {
 	DatabaseConnecter databaseConnecter = new DatabaseConnecter();
@@ -49,7 +47,7 @@ public class ShowDataBaseServlet extends HttpServlet {
 			throws ServletException, IOException {
 		List<TableInfo> tableInfos = databaseConnecter.createTableInfo();
 		request.setAttribute("tableInfos", tableInfos);
-		request.getRequestDispatcher("/jsp/showDatabaseInfo.jsp").forward(request, response);
+		request.getRequestDispatcher("/index.jsp").forward(request, response);
 	}
 
 	/**
